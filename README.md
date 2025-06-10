@@ -101,4 +101,5 @@ Totally the dataset contains 100,836 entries from ratings.csv and 9,742 entries 
 
 3.Evaluation results and recommendation system output:
 
+![Image](https://github.com/user-attachments/assets/31967f53-eade-4954-8860-4f356d2f322f)
 
