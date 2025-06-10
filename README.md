@@ -14,20 +14,27 @@
 
 DESCRIPTION:
 
-A Recommendation System is a type of software that suggests items to users based on their preferences,behaviour and history. The main goal of the recommendation system is to help users to dicover items they like most.
+A Recommendation System is a specialized software application designed to suggest items to users based on their previous behaviors, preferences, and interactions. These systems aim to assist users in discovering 
+
+relevant and interesting items they may not have found on their own. From online shopping to streaming platforms, recommendation systems are widely used today to enhance user satisfaction and drive business 
+
+growth.
 
 There are three types of Recommendation system:
 1. Content Based filtering:
+   This method recommends items similar to those a user has liked in the past. It works by analyzing the features of items such as genre, category, or keywords. For example, if a user enjoys action movies, the
 
-   It recommends items similar to user which he liked in past based on some features like recentchase history,music genre etc..
+   system will recommend other action-packed films.
 
 2. Collaborative Filtering:
+   This technique makes recommendations by identifying users with similar preferences and suggesting items they have liked. It does not rely on the content of the items but rather on user interaction data like
 
-   It recommends items based on the other similar users it does not need any type of features for recommending.\
+   ratings. It can be either user-based or item-based.
 
 3. Hybrid Systems:
+   These systems combine content-based and collaborative filtering methods to provide more accurate and reliable recommendations. This approach is commonly used in real-world applications like Netflix, Amazon,
 
-   This systems combines both content-based and collaborative filtering. It is mostly used recommendation system mostly used in Netflix, Amazon for more accuracy.
+   and Spotify to enhance user personalization.
 
 Importance of Recommendation System:
 
@@ -41,7 +48,7 @@ The recommendation system uses Collaborative Filtering, Matrix Factorization and
 
 dimensionality using SVD and the cosine similarity is to find similar users.
 
-Methods, Functions and libraries used in this recommendation system are:
+Project Approach:
 
 1.pandas is used for data manipulation and data analysis.
 
@@ -66,4 +73,22 @@ Next is a function to get top n similar users.
 Next is a function to recommend movies to the similar users.
 
 The final step is taking user input and displaying recommendations.
+
+This recommendation system uses a user-based collaborative filtering approach, enhanced through SVD for dimensionality reduction and cosine similarity for identifying similar users. The system is efficient and 
+
+interpretable, providing movie suggestions based on historical user preferences while also evaluating its performance using RMSE. Though basic, this pipeline illustrates the core principles behind more advanced 
+
+recommender systems and can be extended using features like implicit feedback, hybrid models, or deep learning.
+
+Dataset:
+The dataset used for the this program is ml-latest-small the dataset conatins 5 CSV files
+1. links.csv conatins links of movies
+2. movies.csv contains the names of movies
+3. ratings.csv contains all the ratings for all the moves
+4. tags.csv contains tags of the movie
+
+Totally the dataset contains 100,836 entries from ratings.csv and 9,742 entries from movies.csv.
+
+*OUTPUT*:
+1.ratings.csv:
 
