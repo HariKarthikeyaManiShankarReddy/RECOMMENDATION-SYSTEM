@@ -41,3 +41,29 @@ The recommendation system uses Collaborative Filtering, Matrix Factorization and
 
 dimensionality using SVD and the cosine similarity is to find similar users.
 
+Methods, Functions and libraries used in this recommendation system are:
+
+1.pandas is used for data manipulation and data analysis.
+
+2.numpy is used for numerical computing 
+
+3.sklearn is a powerfull machine learning python library used for data preprocessing, model training and evaluation..
+
+sklearn.decomposition is used for dimensionality reduction and feature extraction it contains PCA,TruncatedSVD,Factor Analysis..
+
+sklearn.metrics.pairwise is used to evaluate pairwise diatance or affinity of sets of samples, this module contains both distance metrics and kernels.
+
+Frist Step is to create a user-item matrix in this ratings.piviot_table is used to tranforms the dataframe into a matrix and .fillna(0) is used to fill all the missing values.
+
+Second Step is to apply TruncatedSVD for Matrix Factorization.
+
+Third Step is to compute cosine similarity it measures the angle between two user matrices.
+
+Fourth Step is to convert the Similarity matrix to a Dataframe.
+
+Next is a function to get top n similar users.
+
+Next is a function to recommend movies to the similar users.
+
+The final step is taking user input and displaying recommendations.
+
