@@ -90,7 +90,15 @@ The dataset used for the this program is ml-latest-small the dataset conatins 5 
 Totally the dataset contains 100,836 entries from ratings.csv and 9,742 entries from movies.csv.
 
 *OUTPUT*:
+
 1.ratings.csv:
+
 ![Image](https://github.com/user-attachments/assets/533ebceb-60d5-4d97-8371-7f5387e4e074)
+
 2.movies.csv:
+
+![Image](https://github.com/user-attachments/assets/ba405ef5-da64-4988-932f-9f3615ff1271)
+
+3.Evaluation results and recommendation system output:
+
 
