@@ -91,4 +91,6 @@ Totally the dataset contains 100,836 entries from ratings.csv and 9,742 entries 
 
 *OUTPUT*:
 1.ratings.csv:
+![Image](https://github.com/user-attachments/assets/533ebceb-60d5-4d97-8371-7f5387e4e074)
+2.movies.csv:
 
